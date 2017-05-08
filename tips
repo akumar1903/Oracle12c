@@ -1,5 +1,18 @@
 Installation of Oracle 12c on Windows 10-
-I followed this link - http://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/Windows_DB_Install_OBE/Installing_Oracle_Db12c_Windows.html
+Tip#1
 
+I followed this link - http://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/Windows_DB_Install_OBE/Installing_Oracle_Db12c_Windows.html
 This works fine as long as you are not planning for ODI installation.
-If you are planning for ODI installation then character set has to be changed. Refer Doc attached.
+If you are planning for ODI installation then character set has to be changed. Refer Doc attached (Changes in Oracle Installation).
+If the above is not taken care of then repository creation of ODI will fail.
+There are various ways of changing the character set after installation, but none of these worked for me. So i have to uninstall and reinstall Oracle 12c with new characterset.
+
+
+Tip#2
+
+Follow this link for ODI installation - http://www.redstk.com/installing-odi-12c-in-standalone-mode/
+For standalone installation Oracle Fusion Middleware Component need not be installed. AgentDI is enough for working with ODIc
+
+Tip#3
+
+All command line in windows should be opened in 'Administrator' mode.
