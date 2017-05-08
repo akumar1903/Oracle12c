@@ -11,6 +11,7 @@ There are various ways of changing the character set after installation, but non
 Tip#2
 
 Follow this link for ODI installation - http://www.redstk.com/installing-odi-12c-in-standalone-mode/
+The document written by Paul is attached for easy access.
 For standalone installation Oracle Fusion Middleware Component not required. AgentDI is enough for working with ODIc
 
 Tip#3
