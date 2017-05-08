@@ -1,0 +1,5 @@
+Installation of Oracle 12c on Windows 10-
+I followed this link - http://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/Windows_DB_Install_OBE/Installing_Oracle_Db12c_Windows.html
+
+This works fine as long as you are not planning for ODI installation.
+If you are planning for ODI installation then character set has to be changed. Refer Doc attached.
