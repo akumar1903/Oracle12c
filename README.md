@@ -1,1 +1,1 @@
-# Truncate-and-Load-CSV-to-Cassandra
+Oracle12c DB and ODI 12c installation
